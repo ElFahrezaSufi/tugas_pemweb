@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <!-- Font Awesome (CDN): memuat ikon yang digunakan di halaman (mis. ikon sosial) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style_personal_website.css">
+    <script src="script_personal_website.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">エル | EL</div>
+        <ul>
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#schedule">Jadwal Kuliah</a></li>
+            <li><a href="#favorites">Favorites</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="header">
+        <img src="img/foto_profil.jpg" alt="Profile Photo" class="profile-img">
+        <h1>EL FAHREZA SUFI</h1>
+        <p>NIM : 241401042</p>
+        <p>KOM C</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/el.fahreza13/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/ElFahrezaSufi" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=el.fahrezasufi@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- About Section -->
+        <div id="about" class="section">
+            <h2>Tentang Saya</h2>
+            <p>Perkenalkan, Nama saya El Fahreza Sufi, biasa dipanggil El.
+                Saya mahasiswa semester 3 jurusan Ilmu Komputer di Universitas Sumatera Utara.
+            </p>
+            <h3>Motto Hidup</h3>
+            <p>That's that, and This is this.</p>
+            <h3>Hobi</h3>
+            <p>Sepak Bola, Futsal, Game, Anime, Music, etc.</p>
+        </div>
+
+        <!-- Schedule Section -->
+        <div id="schedule" class="section">
+            <h2>Jadwal Kuliah</h2>
+            <table class="schedule-table">
+                <tr>
+                    <th>Hari</th>
+                    <th>Mata Kuliah</th>
+                    <th>Dosen</th>
+                    <th>Waktu</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Senin</td>
+                    <td>Praktikum Basis Data</td>
+                    <td>Aslab : Muhammad Syukron Jazila</td>
+                    <td>8.20 - 10.00</td>
+                </tr>
+                <tr>
+                    <td>Praktikum Pemrograman Web</td>
+                    <td>Aslab : Muhammad Dzakwan Attaqiy</td>
+                    <td>14.50 - 16.30</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Selasa</td>
+                    <td>IELTS Preparation</td>
+                    <td>Drs. Yulianus Harefa GradDipEd TESOL., MEd TESOL.</td>
+                    <td>10.00 - 11.40</td>
+                </tr>
+                <tr>
+                    <td>Pengantar Kewirausahaan</td>
+                    <td>Hafiza Adlina S,AB., M.AB.</td>
+                    <td>13.00 - 15.30</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Rabu</td>
+                    <td>Struktur Data</td>
+                    <td>Anandhini Medianty Nababan S.Kom., M.T.</td>
+                    <td>8.00 - 10.30</td>
+                </tr>
+                <tr>
+                    <td>Kecerdasan Buatan</td>
+                    <td>Dr. Pauzi Ibrahim Nainggolan S.Komp., M.Sc.</td>
+                    <td>10.30 - 13.00</td>
+                </tr>
+                <tr>
+                    <td>Pemrograman Web</td>
+                    <td>Dr. Dewi Sartika Br Ginting S.Kom., M.Kom.</td>
+                    <td>14.40 - 17.10</td>
+                </tr>
+                <tr>
+                    <td>Kamis</td>
+                    <td>Praktikum Struktur Data</td>
+                    <td>Aslab : Parulian Dwi Reslia</td>
+                    <td>8.00 - 9.40</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Jum'at</td>
+                    <td>Basis Data</td>
+                    <td>Insidini Fawwaz M.Kom.</td>
+                    <td>8.00 - 10.30</td>
+                </tr>
+                <tr>
+                    <td>Wirausaha Digital</td>
+                    <td>Dr. T. Henny Febriana Harumy S.Kom., M.Kom.</td>
+                    <td>10.30 - 12.10</td>
+                </tr>
+                <tr>
+                    <td>Etika Profesi</td>
+                    <td>Dr. Ir. Elviawaty Muisa Zamzami S.T., M.T., M.M., IPU.</td>
+                    <td>14.00 - 15.40</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Favorites Section -->
+        <div id="favorites" class="section">
+            <h2>My Favorites Aku Saya</h2>
+            <h3>Quotes</h3>
+            "Saya suka menjadi komting." - Akip.
+
+            <h3>Music</h3>
+            <p>Every songs from <a href="https://www.youtube.com/@ProjectMili" target="_blank">Mili</a>.</p>
+
+            <h3>Movies/Series</h3>
+            <p>Attack on Titan, Steins;Gate, Summertime Render, Erased, Death Note, etc.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 - Created by <strong>El Fahreza Sufi</strong></p>
+    </footer>
+</body>
+</html>
